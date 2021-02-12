@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="homepage.css">
+  <script src="https://kit.fontawesome.com/fb8464bc0d.js" crossorigin="anonymous"></script>
+  <title>ATG World</title>
+</head>
+<body>
+  <nav class="navbar d-none d-md-block" id='nav'>
+    <div class="container-fluid d-flex justify-content-between">
+      <a class="navbar-brand nav-font" href="index.html"><span class="green">ATG.</span><span class="nav-size">W</span><img src="resources/Union 1.svg" alt=""></span><span class="nav-size">RLD</span></a>
+      <div class="input-group nav-search" id="nav-search">
+        <input type="search" id='search' class="form-control rounded-pill input-color" placeholder="Search for your favourite groups in ATG" aria-label="Search"
+          aria-describedby="search-addon" />    
+      </div>
+      <div id="navbarNav">
+        Create Account. <span><a data-bs-toggle="modal" data-bs-target="#createAccModal" class='blue btn'> It's free!<img src="resources/down-arrow.svg" alt=""></a></span> 
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header section -->
+  <header id="showcase">
+    <div class="showcase-content">
+      <a class="d-none arrow-back"> <img src="resources/arrow_back_24px_outlined.svg" alt=""></a>
+      <button class="d-none btn btn-sm join-group-2 btn-primary" data-bs-toggle="modal" data-bs-target="#createAccModalMob" type="submit">Join Group</button>
+      <div class="container">  
+        <div class="row">
+          <div class="col" style="position: absolute; bottom: 2em;">
+            <h1 style="font-weight: bold;">
+              Computer Engineering
+            </h1>
+            <p>
+              142,765 Computer Engineers follow this
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- 2nd Navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand-md mt-3 md-2 border-bottom d-flex justify-content-between d-none d-md-flex" id='nav2'>
+      <div class="nav-margin">
+        <ul class="navbar-nav">
+          <li class="nav-item current">
+            <a class="nav-link" href="#">All Posts(32)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">Job</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <button class="btn btn-sm  post-button mx-2" type="submit">Write a Post  <i class="fas fa-sort-down"></i></button>
+        <button id="join-group" class="btn btn-sm  btn-primary" type="submit"><img src='resources/Vector (1).svg' class="join-group-img"></img> Join Group</button>
+      </div>
+    </nav>
+
+      <!-- navbar on mobile -->
+
+      <nav class="navbar d-flex justify-content-between d-md-none d-xs-flex" id='nav2'>
+        <div class="nav-margin">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-weight: bold;">Posts(368)</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button class="btn btn-sm mt-3" style="background: #EDEEF0; font-weight: bold;">
+            Filter: All
+            <img src="resources/down-arrow.svg">
+          </button>
+        </div>
+      </nav>
+  </div>
+  <div class="d-md-none d-xs-block">
+    <img src="resources/Pink Pencil.svg" alt="" class="pencil-img">
+  </div>
+
+  <!-- cards -->
+  <section id='card-content' class='mt-3'>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="row-fluid mb-3">
+            <div class="card" style="width:90%">
+              <img src="resources/Rectangle5.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><img src="resources/✍️ Article.svg" width="75" height="24"></h5>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h3 class="card-text bold">What if famous brands had regular fonts? Meet RegulaBrands!</h3>
+                  </div>
+                  <div class="dropdown">
+                    <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="resources/Vector (6).svg">
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Edit</a></li>
+                      <li><a class="dropdown-item" href="#">Report</a></li>
+                      <li><a class="dropdown-item" href="#">Option 3</a></li>
+                    </ul>
+                  </div>
+                </div>
+                  <br>
+                  <p class="text-muted">
+                    I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+                  </p>
+                  <div class='d-flex justify-content-between d-md-flex d-none'>
+                    <div>
+                      <img src='resources/Rectangle3.svg'>
+                      <span class="px-2">Sarthak Kamra</span>
+                    </div>
+                    <div>
+                      <img src='resources/path1.svg'>
+                      <span>1.4k views</span>
+                      <img class="bg-vector" src='resources/Vector (5).svg'>
+                    </div>
+                  </div>
+                  <!-- ================================================= -->
+                  <div class='d-flex justify-content-between d-xs-flex d-md-none'>
+                    <div>
+                      <img src='resources/Rectangle3.svg'>
+                      <span class="px-2 d-inline">Sarthak Kamra</span>
+                      <p class="text-muted" style="margin-left: 3.8em; margin-top: -0.8em;">
+                        1.4k views
+                      </p>
+                    </div>
+                    <div>
+                      <button class="btn mt-2" style="background: #EDEEF0";>
+                        <img src="resources/Vector (5).svg">
+                        Share
+                      </button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+            <!-- second card -->
+            <div class='row-fluid mb-3'>
+              <div class="card" style="width:90%">
+                <img src="resources/Rectangle 10.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><img src="resources/🔬️ Education.svg"></h5>
+                    <div class="d-flex justify-content-between">
+                      <div>
+                        <h3 class="card-text bold">Tax Benefits for Investment under National Pension Scheme launched by Government</h3>
+                      </div>
+                      <div class="dropdown">
+                        <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="resources/Vector (6).svg">
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Edit</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          <li><a class="dropdown-item" href="#">Option 3</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <br>
+                    <p class="text-muted">
+                      I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+                    </p>
+                    <div class='d-flex justify-content-between d-md-flex d-none'>
+                      <div>
+                        <img src='resources/Sarah.svg'>
+                        <span class="px-2">Sarah West</span>
+                      </div>
+                      <div>
+                        <img src='resources/path1.svg'>
+                        <span>1.4k views</span>
+                        <img class="bg-vector" src='resources/Vector (5).svg'>
+                      </div>
+                    </div>
+
+                    <!-- ====================== -->
+
+                    <div class='d-flex justify-content-between d-xs-flex d-md-none'>
+                      <div>
+                        <img src='resources/Sarah.svg'>
+                        <span class="px-2 d-inline">Sarah West</span>
+                        <p class="text-muted" style="margin-left: 3.8em; margin-top: -0.8em;">
+                          1.4k views
+                        </p>
+                      </div>
+                      <div>
+                        <button class="btn mt-2" style="background: #EDEEF0";>
+                          <img src="resources/Vector (5).svg">
+                          Share
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <!-- third card -->
+      
+            <div class='row-fluid mb-3'>
+              <div class="card" style="width:90%">
+                <img src="resources/Car.svg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><img src="resources/🗓️ Meetup.svg"></h5>
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h3 class="card-text bold">Finance & Investment Elite Social Mixer @Lujiazui</h3>
+                    </div>
+                    <div class="dropdown">
+                      <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="resources/Vector (6).svg">
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Edit</a></li>
+                        <li><a class="dropdown-item" href="#">Report</a></li>
+                        <li><a class="dropdown-item" href="#">Option 3</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row d-flex justify-content-between">
+                    <div class="col">
+                      <img src="resources/Vector (2).svg"> <span>Fri,12th Oct</span> 2018
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-map-marker-alt"></i> <span>Ahmedabad, India</span>
+                    </div>
+                    <br> <br>
+                    <button class="btn button-meetup orange">Visit Website</button>
+                  </div>
+                  <br>
+                  <div class='d-flex justify-content-between d-md-flex d-none'>
+                    <div>
+                      <img src='resources/Ronal.svg'>
+                      <span class="px-2">Ronal Jones</span>
+                    </div>
+                    <div>
+                      <img src='resources/path1.svg'>
+                      <span>1.4k views</span>
+                      <img class="bg-vector" src='resources/Vector (5).svg'>
+                    </div>
+                  </div>
+                  <!-- ================ -->
+
+                  <div class='d-flex justify-content-between d-xs-flex d-md-none'>
+                    <div>
+                      <img src='resources/Ronal.svg'>
+                      <span class="px-2 d-inline">Ronal Jones</span>
+                      <p class="text-muted" style="margin-left: 3.8em; margin-top: -0.8em;">
+                        1.4k views
+                      </p>
+                    </div>
+                    <div>
+                      <button class="btn mt-2" style="background: #EDEEF0";>
+                        <img src="resources/Vector (5).svg">
+                        Share
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- fourth card -->
+            <div class='row-fluid mb-5'>
+              <div class="card" style="width:90%">
+                <div class="card-body">
+                  <h5 class="card-title"><img src="resources/💼️ Job.svg"></h5>
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h3 class="card-text bold">Software Developer</h3>
+                    </div>
+                    <div class="dropdown">
+                      <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="resources/Vector (6).svg">
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Edit</a></li>
+                        <li><a class="dropdown-item" href="#">Report</a></li>
+                        <li><a class="dropdown-item" href="#">Option 3</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row d-flex justify-content-between">
+                    <div class="col">
+                      <img src="resources/Vector (4).svg"> <span>Innovaccer Analytics Private Ltd.</span>
+                    </div>
+                    <div class="col">
+                      <i class="fas fa-map-marker-alt"></i> <span>Noida, India</span>
+                    </div>
+                    <br> <br>
+                    <button class="btn button-apply h-50 green rounded">Apply on Timesjobs</button>
+                  </div>
+                  <br>
+                  <div class='d-flex justify-content-between d-md-flex d-none'>
+                    <div>
+                      <img src='resources/Joseph.svg'>
+                      <span class="px-2">Joseph Gray</span>
+                    </div>
+                    <div>
+                      <img src='resources/path1.svg'>
+                      <span>1.4k views</span>
+                      <img class="bg-vector" src='resources/Vector (5).svg'>
+                    </div>
+                  </div>
+                  <!-- =========================================================== -->
+                  <div class='d-flex justify-content-between d-xs-flex d-md-none'>
+                    <div>
+                      <img src='resources/Joseph.svg'>
+                      <span class="px-2 d-inline">Joseph Gray</span>
+                      <p class="text-muted" style="margin-left: 3.8em; margin-top: -0.8em;">
+                        1.4k views
+                      </p>
+                    </div>
+                    <div>
+                      <button class="btn mt-2" style="background: #EDEEF0";>
+                        <img src="resources/Vector (5).svg">
+                        Share
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- loc input -->
+        <div class="col-lg-3 d-none d-lg-block">
+          <div class="mt-4 mb-2">
+            <img src="resources/loc.svg" alt="" class="d-inline">
+            <input type="text" id="loc" placeholder="Enter your Location" value='Noida,India'class="loc-input"> 
+          </div>
+          <hr class="bottom-line">
+          <div class="d-flex mt-5">
+            <img src="resources/base-note.svg" alt="" class="align-self-start">
+            <p class="d-inline text-muted location-note px-2">Your location will help us serve better and extend a personalised experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+     <!-- Create Account Modal -->
+     <div class="modal fade" id="createAccModal" tabindex="-1" aria-labelledby="createAccModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header modal-h">
+            <p class="modal-title mx-auto" id="createAccModalLabel">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+            <button type="button" class="button-up modal-closer" data-bs-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h1 class="modal-account">
+                    Create Account
+                  </h1>
+                  <br>
+                  <form>
+                    <div class="row  g-0">
+                      <div class="col-lg-6">
+                        <input type="text" class="form-control bg-light rounded-0" placeholder="First Name"/>
+                      </div>
+                      <div class="col-lg-6">
+                        <input type="text" class="form-control bg-light rounded-0" placeholder="Last Name"/>
+                      </div>
+                    </div>
+                    <input type="email" class="form-control bg-light rounded-0" placeholder="Email"/>
+                    <input type="password" class="form-control bg-light rounded-0" placeholder="Password"/>
+                    <input type="password" class="form-control bg-light rounded-0" placeholder="Confirm Password"/>
+                  </form>
+                  <a href="loggedin.html" class="btn btn-large text-white rounded-pill custom-btn mt-4">Create Account</a>
+                  <br>
+                  <br>
+                  <button class="btn btn-light1" style="width:100%"><img src="resources/f_logo_RGB-Blue_1024.svg" style="margin-right:5px"> Sign Up with Facebook</button>
+                  <button class="btn btn-light1 mt-2" style="width:100%"><img src="resources/search.svg" style="margin-right:5px">Sign Up with Google</button>
+                </div>
+                <div class="col-lg-6">
+                  <p class="text-end">
+                    Already have an account? <a data-bs-toggle="modal" href="loggedin.html" data-bs-target="#signInModal" data-bs-dismiss="modal" class="blue pointer" id="signUp"> Sign In! </a>
+                  </p>
+                  <br>
+                  <br>
+                  <img class="modal-pic-left" src="resources/513049 PI8X2J 876.svg" alt="">
+                  <br>
+                  <br>
+                  <br>
+                  <p class="text-muted modal-muted">By signing up, you agree to our Terms & conditions, Privacy policy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign In Modal -->
+    <div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="signInModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header modal-h">
+            <p class="modal-title mx-auto" id="signInModalLabel">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+            <button type="button" class="button-up modal-closer" data-bs-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h1 class="modal-account">
+                    Sign In
+                  </h1>
+                  <br>
+                  <form>
+                    <input type="email" class="form-control bg-light rounded-0" placeholder="Email"/>
+                    <input type="password" class="form-control bg-light rounded-0" placeholder="Password"/>
+                  </form>
+                  <button class="btn btn-large text-white rounded-pill custom-btn mt-4">Sign In</button>
+                  <br>
+                  <br>
+                  <button class="btn btn-light1" style="width:100%"><img src="resources/f_logo_RGB-Blue_1024.svg" style="margin-right:5px"> Sign Up with Facebook</button>
+                  <button class="btn btn-light1 mt-2" style="width:100%"><img src="resources/search.svg" style="margin-right:5px">Sign Up with Google</button>
+                </div>
+                <div class="col-lg-6">
+                  <p class="text-end">
+                    Don't have an account yet? <a data-bs-toggle="modal" data-bs-target="#createAccModal" class="blue pointer" id="createNew" data-bs-dismiss="modal"> Create new for free! </a>
+                  </p>
+                  <br>
+                  <br>
+                  <img class="modal-pic-left" src="resources/513049 PI8X2J 876.svg" alt="">
+                  <br>
+                  <br>
+                  <br>
+                  <p class="text-muted modal-muted">By signing up, you agree to our Terms & conditions, Privacy policy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- mobile view modal -->
+      <!-- CreateAccModalMob -->
+      <div class="modal fade" id="createAccModalMob" tabindex="-1" aria-labelledby="createAccModalMobLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="d-flex justify-content-between">
+                      <h1 class="modal-account mt-3">
+                      Create Account
+                      </h1>
+                      <button class="btn" data-bs-dismiss="modal"><img src="resources/exit-button.svg"/></button>
+                    </div>
+                    <br>
+                    <form>
+                      <div class="row  g-0">
+                        <div class="col-6">
+                          <input type="text" class="form-control bg-light rounded-0" placeholder="First Name"/>
+                        </div>
+                        <div class="col-6">
+                          <input type="text" class="form-control bg-light rounded-0" placeholder="Last Name"/>
+                        </div>
+                      </div>
+                      <input type="email" class="form-control bg-light rounded-0" placeholder="Email"/>
+                      <input type="password" class="form-control bg-light rounded-0" placeholder="Password"/>
+                      <input type="password" class="form-control bg-light rounded-0" placeholder="Confirm Password"/>
+                    </form>
+                    <div class="row">
+                      <div class="col">
+                        <a href="loggedin.html" class="btn btn-large text-white rounded-pill custom-btn mt-4">Create Account</a>
+                      </div>
+                      <div class="col">
+                        <p class="text-end mt-4">
+                          <a data-bs-toggle="modal" data-bs-target="#signInModalMob" data-bs-dismiss="modal" class="pointer" id="signUp"><u>or,Sign In</u></a>
+                        </p>
+                      </div>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="loggedin.html" class="btn btn-light1" style="width:100%"><img src="resources/f_logo_RGB-Blue_1024.svg" style="margin-right:5px"> Sign Up with Facebook</a>
+                    <a href="loggedin.html" class="btn btn-light1 mt-2" style="width:100%"><img src="resources/search.svg" style="margin-right:5px">Sign Up with Google</a>
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="text-muted modal-muted text-center">By signing up, you agree to our Terms &<br> conditions, Privacy policy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- Sign In Modal Mob -->
+      <div class="modal fade mobmodal" id="signInModalMob" tabindex="-1" aria-labelledby="signInModalMobLabel" aria-hidden="true">
+        <div class="modal-dialog mobmodal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="d-flex justify-content-between">
+                      <h1 class="modal-account mt-3">
+                      Welcome back!
+                      </h1>
+                      <button class="btn" data-bs-dismiss="modal"><img src="resources/exit-button.svg"/></button>
+                    </div>
+                    <br>
+                    <form>
+                      <input type="email" class="form-control bg-light rounded-0" placeholder="Email"/>
+                      <input type="password" class="form-control bg-light rounded-0" placeholder="Password"/>
+                      <input type="password" class="form-control bg-light rounded-0" placeholder="Confirm Password"/>
+                    </form>
+                    <div class="row">
+                      <div class="col">
+                        <a href="loggedin.html" class="btn btn-large text-white rounded-pill custom-btn mt-4">Sign In</a>
+                      </div>
+                      <div class="col">
+                        <p class="text-end mt-4">
+                          <a data-bs-toggle="modal" data-bs-target="#createAccModalMob" data-bs-dismiss="modal" class="pointer" id="signUp"><u>or,Create Account</u></a>
+                        </p>
+                      </div>
+                    </div>
+                    <br>
+                    <br>
+                    <a href="loggedin.html" class="btn btn-light1" style="width:100%"><img src="resources/f_logo_RGB-Blue_1024.svg" style="margin-right:5px"> Sign Up with Facebook</a>
+                    <a href="loggedin.html" class="btn btn-light1 mt-2" style="width:100%"><img src="resources/search.svg" style="margin-right:5px">Sign Up with Google</a>
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="modal-muted text-center mt-3">Forgot Password?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    
+</body>
+</html>
